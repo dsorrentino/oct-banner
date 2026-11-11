@@ -12,7 +12,7 @@ spec:
     Uses ConsoleNotification. Changes apply cluster-wide.
   category: management
   source: community
-  git: https://github.com/OOsemka/oct-banner
+  git: https://github.com/openshift-community-tools/oct-banner
   consolePlugin: oct-banner
   href: /community-tools/management/banner
   defaultChannel: stable
@@ -27,10 +27,10 @@ spec:
     - version: "1.0.0"
       channel: stable
       openshift: ["4.21"]
-      image: quay.io/cjanisze/oct-banner:1.0.0-ocp4.21
+      image: quay.io/openshift-community-tools/oct-banner:1.0.0-ocp4.21
       gitRef: v1.0.0
     - version: "1.0.0"
       channel: stable
       openshift: ["4.22"]
-      image: quay.io/cjanisze/oct-banner:1.0.0-ocp4.22
+      image: quay.io/openshift-community-tools/oct-banner:1.0.0-ocp4.22
       gitRef: v1.0.0
